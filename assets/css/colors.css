@@ -1,0 +1,8 @@
+:root {
+    --main-black: black;
+    --main-black2: #121212;
+    --main-black3: #333333;
+    --main-white: white;
+    --main-grad1: linear-gradient(90deg, #DF5950 0%, #451046 100%);
+    --main-grad2: linear-gradient(90deg, #C89AFC 0%, #7C6AFA 100%);
+}

@@ -1,0 +1,35 @@
+.header {
+}
+.header-container {
+    max-width: 1760px;
+}
+
+.header-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 38px 0;
+}
+.header-block .logo {
+}
+.header-block .icon {
+}
+.header-block .navigation {
+    display: flex;
+}
+.header-block .navigation > *:not(:last-child) {
+}
+.header-block .navigation-item {
+    padding: 8px 28px;
+    box-sizing: border-box;
+}
+.header-block .item-link {
+    line-height: 150%;
+}
+.header-block .button {
+    background: var(--main-grad2);
+}
+.header-block a {
+    color: var(--main-white);
+}
