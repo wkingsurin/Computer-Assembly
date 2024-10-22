@@ -1,4 +1,7 @@
 @import url('./main/hero-section.css');
 
-.main {}
+.main {
+    position: relative;
+    z-index: 1;
+}
 .section {}
