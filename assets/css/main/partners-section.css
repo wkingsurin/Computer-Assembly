@@ -1,0 +1,70 @@
+.section {
+}
+.partners-section {
+}
+.partners-section .container {
+}
+.partners-section .content {
+}
+.partners-section .partners-content {
+}
+.partners-section .partners-block {
+    display: flex;
+    flex-direction: column;
+
+    gap: 60px;
+}
+.partners-section .title-block {
+}
+.partners-section .icon-block {
+}
+.partners-section .icon {
+    transform: scale(-1);
+}
+.partners-section .title {
+}
+.partners-section .fz_48 {
+}
+.partners-section .cards-block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-row {
+    position: relative;
+
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, .3);
+}
+.grid-row {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.grid-row:last-child {
+    border-bottom: none;
+}
+.grid-row > *:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+.partners-section .item-wrapper {
+    flex: 1 1 25%;
+
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partners-section .item {
+}
+.partners-section .image-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 198px;
+    height: 93px;
+}

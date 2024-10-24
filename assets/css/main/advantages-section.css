@@ -22,9 +22,7 @@
     flex-direction: column;
     gap: 50px;
 }
-.advantages-section .title-block {
-    display: flex;
-    gap: 20px;
+.title-block {
 }
 .advantages-section .icon-block {
     display: flex;

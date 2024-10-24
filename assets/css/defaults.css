@@ -22,6 +22,11 @@ html {
     border-radius: 50px;
 }
 
+.title-block {
+    display: flex;
+    gap: 20px;
+}
+
 .title {
     font-weight: bold;
     line-height: 140%;

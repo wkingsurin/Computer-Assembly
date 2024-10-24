@@ -1,6 +1,7 @@
 @import url('./main/hero-section.css');
 @import url('./main/about-section.css');
 @import url('./main/advantages-section.css');
+@import url('./main/partners-section.css');
 
 .main {
     position: relative;
