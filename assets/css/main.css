@@ -1,7 +1,10 @@
 @import url('./main/hero-section.css');
+@import url('./main/about-section.css');
 
 .main {
     position: relative;
     z-index: 1;
 }
-.section {}
+.section:not(:first-child) {
+    padding: 100px 0;
+}

@@ -1,6 +1,7 @@
 html {
     font-family: 'Roboto';
-    background: var(--main-black);
+    background-color: var(--main-black);
+    background-image: url('../images/grid.png');
 }
 
 .wrapper {
